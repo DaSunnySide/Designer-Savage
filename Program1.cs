@@ -6,8 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Hello World. Calls the Writeline function to display content to the command line.
-            string input;            Console.WriteLine("Please enter some input");
+            //Simple request for user input using a WriteLine statement, saves a user input as a string 
+            //variable, and prints it using WriteLine.
+            string input;
+            Console.WriteLine("Please enter some input");
             input = Console.ReadLine();
             Console.WriteLine(input);
         }
